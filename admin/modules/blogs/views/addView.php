@@ -10,7 +10,7 @@
                     <a href="?modules=blogs&controllers=index&action=list" title="" id="add-new" class="fl-left">Danh sách</a>
                 </div>
             </div>
-            <div class="section" id="detail-page">
+            <div class="section" id="detail-page"> 
                 <div class="section-detail">
 
                     <form method="post" action="?modules=blogs&controllers=index&action=add" enctype="multipart/form-data">
