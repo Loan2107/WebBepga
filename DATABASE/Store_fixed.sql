@@ -293,7 +293,7 @@ CREATE TABLE `tbl_product` (
   `description` text NOT NULL,
   `type_of_gas_stove` varchar(255) NOT NULL,
   `igniters` varchar(255) NOT NULL,
-  `gas_consumtion` varchar(255) NOT NULL,
+  `gas_consumption` varchar(255) NOT NULL,
   `burners` varchar(255) NOT NULL,
   `utilities` varchar(255) NOT NULL,
   `manufacturer_in` varchar(255) NOT NULL,
