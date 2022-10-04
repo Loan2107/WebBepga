@@ -27,7 +27,7 @@
                         <div class="desc">
                             <p>Loại bếp :<?php echo $data['1']['type_of_gas_stove']; ?></p>
                             <p>Tiện ích :<?php echo $data['1']['utilities']; ?></p>
-                            <p>Camera sau :<?php echo $data['1']['rear_camera']; ?></p>
+                            <p>Hãng :<?php echo $data['1']['brand']; ?></p>
                             <p>Sản xuất tại :<?php echo $data['1']['manufacturer_in']; ?></p>
                             <p>Gas tiêu thụ :<?php echo $data['1']['gas_consumption'] ;?></p>
                             <p>Đánh lửa :<?php echo $data['1']['igniters']; ?></p>
