@@ -33,7 +33,7 @@
                             </div>
                         </div>
                         <label for="desc">Mô tả</label>
-                        <textarea name="description" id="desc" class="ckeditor"><?php echo $value['description']; ?></textarea>
+                        <textarea name="description" id="desc"><?php echo $value['description']; ?></textarea>
 
                     <?php };?>
 

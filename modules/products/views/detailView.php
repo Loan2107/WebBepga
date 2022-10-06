@@ -25,13 +25,13 @@
                     <div class="info fl-right">
                         <h3 class="product-name"><?php echo $data['1']['name']; ?></h3>
                         <div class="desc">
-                            <p>Màn hình :<?php echo $data['1']['screen']; ?></p>
-                            <p>Hệ điều hành :<?php echo $data['1']['operating_system']; ?></p>
-                            <p>Camera sau :<?php echo $data['1']['rear_camera']; ?></p>
-                            <p>Camera trước :<?php echo $data['1']['front_camera']; ?></p>
-                            <p>CPU :<?php echo $data['1']['cpu'] ;?></p>
-                            <p>RAM :<?php echo $data['1']['ram']; ?></p>
-                            <p>Bộ nhớ :<?php echo $data['1']['memory'] ;?></p>     
+                            <p>Loại bếp :<?php echo $data['1']['type_of_gas_stove']; ?></p>
+                            <p>Tiện ích :<?php echo $data['1']['utilities']; ?></p>
+                            <p>Năm sản xuất :<?php echo $data['1']['year_of_manufacture']; ?></p>
+                            <p>Sản xuất tại :<?php echo $data['1']['manufacturer_in']; ?></p>
+                            <p>Gas tiêu thụ :<?php echo $data['1']['gas_consumption'] ;?></p>
+                            <p>Đánh lửa :<?php echo $data['1']['igniters']; ?></p>
+                            <p>Đầu đốt :<?php echo $data['1']['burners'] ;?></p>     
                         </div>
                         <div class="num-product">
                             <span class="title">Sản phẩm: </span>
