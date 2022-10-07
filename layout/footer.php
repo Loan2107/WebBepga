@@ -2,8 +2,8 @@
     <div id="foot-body">
         <div class="wp-inner clearfix">
             <div class="block" id="info-company">
-                <h3 class="title">SMARTSHOP PTN</h3>
-                <p class="desc">SMARTSHOP PTN luôn cung cấp luôn là sản phẩm chính hãng có thông tin rõ ràng, chính sách ưu đãi cực lớn cho khách hàng có thẻ thành viên.</p>
+                <h3 class="title">BẾP VIỆT STORE</h3>
+                <p class="desc">Mua bếp gas chính hãng tại Bếp Việt Store. Sản phẩm chất lượng, cam kết giá tốt nhất, bảo hành đổi trả linh hoạt.</p>
                 <div id="payment">
                     <div class="thumb">
                         <img src="public/images/img-foot.png" alt="">
@@ -14,13 +14,13 @@
                 <h3 class="title">Thông tin cửa hàng</h3>
                 <ul class="list-item">
                     <li>
-                        <p>KTX khu A ĐHQG, Đông Hòa, Dĩ An, Bình Dương</p>
+                        <p>Lô 1 cư xá Thanh Đa, Phường 27, Bình Thạnh, Hồ Chí Minh</p>
                     </li>
                     <li>
-                        <p>0764484234 - 0387503640</p>
+                        <p>0964101044 / 0913105090</p>
                     </li>
                     <li>
-                        <p>smartshopPTN@gmail.com</p>
+                        <p>bepvietstore@gmail.com</p>
                     </li>
                 </ul>
             </div>
@@ -28,17 +28,17 @@
                 <h3 class="title">Chính sách mua hàng</h3>
                 <ul class="list-item">
                     <li>
-                        <a href="" title="">Quy định - chính sách</a>
+                        <a href="" title="">Giao hàng - Thanh toán</a>
                     </li>
                     <li>
-                        <a href="" title="">Chính sách bảo hành - đổi trả</a>
+                        <a href="" title="">Hướng dẫn bảo hành - Đổi trả</a>
                     </li>
                     <li>
-                        <a href="" title="">Chính sách hội viện</a>
+                        <a href="" title="">Hướng dẫn mua hàng</a>
                     </li>
-                    <li>
+                    <!-- <li>
                         <a href="" title="">Giao hàng - lắp đặt</a>
-                    </li>
+                    </li> -->
                 </ul>
             </div>
             <div class="block" id="newfeed">
@@ -55,13 +55,13 @@
     </div>
     <div id="foot-bot">
         <div class="wp-inner">
-            <p id="copyright">© Bản quyền thuộc về PTN | SMARTSHOP PTN</p>
+            <p id="copyright">© Bản quyền thuộc về Bếp Việt Store</p>
         </div>
     </div>
 </div>
 </div>
 <div id="menu-respon">
-    <a href="?page=home" title="" class="logo">SMARTSHOP PTN</a>
+    <a href="?page=home" title="" class="logo">Bếp Việt Store</a>
     <div id="menu-respon-wp">
         <ul class="" id="main-menu-respon">
             <li>

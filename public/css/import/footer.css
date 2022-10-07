@@ -1,22 +1,28 @@
 /*FOOTER*/
-#footer-wp #foot-body{ padding: 50px 0px;}
+#footer-wp #foot-body{ 
+    background-color: #ffffff;
+    padding: 50px 0px;
+}
 #footer-wp #foot-body .block{ float: left; width: 25%; padding-left: 30px;}
 #footer-wp #foot-body .block:first-child{ padding-left: 0;}
+
 #info-company .title{
     font-size: 28px;
     font-family: 'Roboto Medium';
     font-weight: normal;
-    color: #2a8df1;
+    color: #1c76b3;
     text-transform: uppercase;
     margin-bottom: 25px;
 }
 #info-company .desc, #newfeed .desc{
     font-family: 'Roboto Light';
     text-align: justify;
-    color: #6d6d6d;
+    color: #000000;
     margin-bottom: 25px;
 }
 .menu-ft .title, #newfeed .title{
+    color: #1c76b3;
+    font-weight: bold;
     font-size: 20px;
     margin-bottom: 25px;
 }
@@ -37,6 +43,7 @@
 .menu-ft .list-item li:nth-child(1) p:before{ content: '\f041';}
 .menu-ft .list-item li:nth-child(2) p:before{ content: '\f095';}
 .menu-ft .list-item li:nth-child(3) p:before{ content: '\f0e0';}
+
 #info-shop .list-item li a{
     position: relative;
     color: #000;
@@ -51,7 +58,7 @@
     width: 5px;
     height: 5px;
     border-radius: 50%;
-    background: #da1818;
+    background: #1c76b3;
     transform: translateY(-50%);
 }
 #form-reg #email{
@@ -64,7 +71,7 @@
 #form-reg #sm-reg{
     display: block;
     width: 100%;
-    background: #da1818;
+    background: #f6861b;
     border: none;
     outline: none;
     padding: 10px 0px;
@@ -73,7 +80,7 @@
     font-family: 'Roboto Medium';
     line-height: normal;
 }
-#form-reg #sm-reg:hover{ background: #c10f0f;}
+#form-reg #sm-reg:hover{ background: #cfffcf;}
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
     color: #999;
     font-family: 'Roboto Light';
@@ -95,12 +102,13 @@
     font-size: 13px;
 }
 #foot-bot{
-    background: #2a8df1;
+    background: #1c76b3;
     text-align: center;
     padding: 10px 0px;
 }
 #foot-bot #copyright{
-    color: #fff;
+    color: #ffffff;
+    font-weight: bold;
     line-height: normal;
     font-family: 'Roboto Light';
 }
