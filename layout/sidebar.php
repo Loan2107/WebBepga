@@ -83,16 +83,16 @@
             <div class="section" id="banner-wp">
                 <div class="section-detail">
                     <a href="" title="" class="thumb">
-                        <img src="public/images/banner00.jpg" alt="">
+                        <img src="public/images/bigsale.jpg" alt="">
                     </a>
                      
-                    <a href="" title="" class="thumb" style="margin-top: 10px;">
+                    <!-- <a href="" title="" class="thumb" style="margin-top: 10px;">
                         <img src="public/images/banner01.png" alt="">
                     </a> 
 
                     <a href="" title="" class="thumb" style="margin-top: 10px;">
                         <img src="public/images/bigsale1.jpg" alt="">
-                    </a> 
+                    </a>  -->
 
                 </div>
             </div>
