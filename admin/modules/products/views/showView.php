@@ -34,20 +34,20 @@
     
                             </div>
                             <div style="width: 400px;">
-                                <label for="price">Màn hình</label>
-                                <input type="text" name="screen" id="price" value="<?php echo $value['screen']; ?>" style="display: block;width: 300px;">
-                                <label for="price">Ram</label>
-                                <input type="text" name="ram" id="price" value="<?php echo $value['ram']; ?>" style="display: block;width: 300px;">
-                                <label for="price">Cpu</label>
-                                <input type="text" name="cpu" id="price" value="<?php echo $value['cpu']; ?>" style="display: block;width: 300px;">
-                                <label for="price">Bộ nhớ</label>
-                                <input type="text" name="memory" id="price" value="<?php echo $value['memory']; ?>" style="display: block;width: 300px;">
-                                <label for="price">Hệ điều hành</label>
-                                <input type="text" name="operating_system" id="price" value="<?php echo $value['operating_system']; ?>" style="display: block;width: 300px;">
-                                <label for="price">Camera trước</label>
-                                <input type="text" name="front_camera" id="price" value="<?php echo $value['front_camera']; ?>" style="display: block;width: 300px;">
-                                <label for="price">Camera sau</label>
-                                <input type="text" name="rear_camera" id="price" value="<?php echo $value['rear_camera']; ?>" style="display: block;width: 300px;">
+                                <label for="price">Loại bếp</label>
+                                <input type="text" name="type_of_gas_stove" id="price" value="<?php echo $value['screen']; ?>" style="display: block;width: 300px;">
+                                <label for="price">Đánh lửa</label>
+                                <input type="text" name="igniters" id="price" value="<?php echo $value['ram']; ?>" style="display: block;width: 300px;">
+                                <label for="price">Gas tiêu thụ</label>
+                                <input type="text" name="gas_consumption" id="price" value="<?php echo $value['cpu']; ?>" style="display: block;width: 300px;">
+                                <label for="price">Đầu đốt</label>
+                                <input type="text" name="burners" id="price" value="<?php echo $value['memory']; ?>" style="display: block;width: 300px;">
+                                <label for="price">Tiện ích</label>
+                                <input type="text" name="utilities" id="price" value="<?php echo $value['operating_system']; ?>" style="display: block;width: 300px;">
+                                <label for="price">Sản xuất tại</label>
+                                <input type="text" name="manufacturer_in" id="price" value="<?php echo $value['front_camera']; ?>" style="display: block;width: 300px;">
+                                <label for="price">Năm sản xuất</label>
+                                <input type="text" name="year_of_manufacture" id="price" value="<?php echo $value['rear_camera']; ?>" style="display: block;width: 300px;">
                           </div>
                           <div style="width: 400px;">
                             <label for="price">Trạng thái</label>
