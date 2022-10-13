@@ -12,7 +12,7 @@
             <div class="section" id="detail-page">
                 <div class="section-detail">
 
-                    <form method="POST" action="?modules=products&controllers=index&action=add" enctype="multipart/form-data"">
+                    <form method="POST" action="?modules=products&controllers=index&action=add" enctype="multipart/form-data">
 
                         <div style=" display: flex;">
                             <div style="width: 400px;">
@@ -79,7 +79,7 @@
                         </div>
                         </div>
                         <label for="desc">Mô tả sản phẩm</label>
-                        <textarea name="description" id="desc" class="ckeditor"></textarea>
+                        <textarea name="description" id="desc"></textarea>
                         
                         <input type="submit" name="btn_submit" id="btn-submit" value="Thêm mới" style="height: 40px;
                                                                                                 border-radius: 60px;

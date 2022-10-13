@@ -22,13 +22,13 @@ function addAction() {
 	$quantity;
 	$status;
 	$description;
-	$screen;
-	$ram;
-	$cpu;
-	$memory;
-	$operating_system;
-	$front_camera;
-	$rear_camera;
+	$type_of_gas_stove;
+	$igniters;
+	$gas_consumption;
+	$burners;
+	$utilities;
+	$manufacturer_in;
+	$year_of_manufacture;
 	$user;
 	$create_date;
 	$image;
@@ -96,46 +96,46 @@ function addAction() {
 			$err['description'] ="description không được rỗng";
 		}
 
-		if(!empty($_POST['screen'])){
-			$screen = $_POST['screen'];
+		if(!empty($_POST['type_of_gas_stove'])){
+			$type_of_gas_stove = $_POST['type_of_gas_stove'];
 		}else{
-			$err['screen'] ="screen không được rỗng";
+			$err['type_of_gas_stove'] ="type_of_gas_stove không được rỗng";
 		}
 
-		if(!empty($_POST['ram'])){
-			$ram = $_POST['ram'];
+		if(!empty($_POST['igniters'])){
+			$igniters = $_POST['igniters'];
 		}else{
-			$err['ram'] ="ram không được rỗng";
+			$err['igniters'] ="igniters không được rỗng";
 		}
 
-		if(!empty($_POST['cpu'])){
-			$cpu = $_POST['cpu'];
+		if(!empty($_POST['gas_consumption'])){
+			$gas_consumption = $_POST['gas_consumption'];
 		}else{
-			$err['cpu'] ="cpu không được rỗng";
+			$err['gas_consumption'] ="gas_consumption không được rỗng";
 		}
 
-		if(!empty($_POST['memory'])){
-			$memory = $_POST['memory'];
+		if(!empty($_POST['burners'])){
+			$burners = $_POST['burners'];
 		}else{
-			$err['memory'] ="memory không được rỗng";
+			$err['burners'] ="burners không được rỗng";
 		}
 
-		if(!empty($_POST['operating_system'])){
-			$operating_system = $_POST['operating_system'];
+		if(!empty($_POST['utilities'])){
+			$utilities = $_POST['utilities'];
 		}else{
-			$err['operating_system'] ="operating_system không được rỗng";
+			$err['utilities'] ="utilities không được rỗng";
 		}
 
-		if(!empty($_POST['front_camera'])){
-			$front_camera = $_POST['front_camera'];
+		if(!empty($_POST['manufacturer_in'])){
+			$manufacturer_in = $_POST['manufacturer_in'];
 		}else{
-			$err['front_camera'] ="front_camera không được rỗng";
+			$err['manufacturer_in'] ="manufacturer_in không được rỗng";
 		}
 
-		if(!empty($_POST['rear_camera'])){
-			$rear_camera = $_POST['rear_camera'];
+		if(!empty($_POST['year_of_manufacture'])){
+			$year_of_manufacture = $_POST['year_of_manufacture'];
 		}else{
-			$err['rear_camera'] ="rear_camera không được rỗng";
+			$err['year_of_manufacture'] ="year_of_manufacture không được rỗng";
 		}
 
 		if(!empty($_POST['user'])){
@@ -193,13 +193,13 @@ function addAction() {
 			'quantity' => $quantity,
 			'status' => $status,
 			'description' => $description,
-			'screen' => $screen,
-			'ram' => $ram,
-			'cpu' => $cpu,
-			'memory' => $memory,
-			'operating_system' => $operating_system,
-			'front_camera' => $front_camera,
-			'rear_camera' => $rear_camera,
+			'type_of_gas_stove' => $type_of_gas_stove,
+			'igniters' => $igniters,
+			'gas_consumption' => $gas_consumption,
+			'burners' => $burners,
+			'utilities' => $utilities,
+			'manufacturer_in' => $manufacturer_in,
+			'year_of_manufacture' => $year_of_manufacture,
 			'user' => $user,
 			'create_date' => $create_date,
 			'image' => $image,
@@ -328,46 +328,46 @@ function updateAction() {
 			$data1['level'] = $_POST['level'];
 		}
 
-		if(empty($_POST['screen'])){
-			$data1['screen'] = $data[0]['screen'];
+		if(empty($_POST['type_of_gas_stove'])){
+			$data1['type_of_gas_stove'] = $data[0]['type_of_gas_stove'];
 		}else{
-			$data1['screen'] = $_POST['screen'];
+			$data1['type_of_gas_stove'] = $_POST['type_of_gas_stove'];
 		}
 
-		if(empty($_POST['ram'])){
-			$data1['ram'] = $data[0]['ram'];
+		if(empty($_POST['igniters'])){
+			$data1['igniters'] = $data[0]['igniters'];
 		}else{
-			$data1['ram'] = $_POST['ram'];
+			$data1['igniters'] = $_POST['igniters'];
 		}
 
-		if(empty($_POST['cpu'])){
-			$data1['cpu'] = $data[0]['cpu'];
+		if(empty($_POST['gas_consumption'])){
+			$data1['gas_consumption'] = $data[0]['gas_consumption'];
 		}else{
-			$data1['cpu'] = $_POST['cpu'];
+			$data1['gas_consumption'] = $_POST['gas_consumption'];
 		}
 
-		if(empty($_POST['memory'])){
-			$data1['memory'] = $data[0]['memory'];
+		if(empty($_POST['burners'])){
+			$data1['burners'] = $data[0]['burners'];
 		}else{
-			$data1['memory'] = $_POST['memory'];
+			$data1['burners'] = $_POST['burners'];
 		}
 
-		if(empty($_POST['operating_system'])){
-			$data1['operating_system'] = $data[0]['operating_system'];
+		if(empty($_POST['utilities'])){
+			$data1['utilities'] = $data[0]['utilities'];
 		}else{
-			$data1['operating_system'] = $_POST['operating_system'];
+			$data1['utilities'] = $_POST['utilities'];
 		}
 		
-		if(empty($_POST['front_camera'])){
-			$data1['front_camera'] = $data[0]['front_camera'];
+		if(empty($_POST['manufacturer_in'])){
+			$data1['manufacturer_in'] = $data[0]['manufacturer_in'];
 		}else{
-			$data1['front_camera'] = $_POST['front_camera'];
+			$data1['manufacturer_in'] = $_POST['manufacturer_in'];
 		}
 
-		if(empty($_POST['rear_camera'])){
-			$data1['rear_camera'] = $data[0]['rear_camera'];
+		if(empty($_POST['year_of_manufacture'])){
+			$data1['year_of_manufacture'] = $data[0]['year_of_manufacture'];
 		}else{
-			$data1['rear_camera'] = $_POST['rear_camera'];
+			$data1['year_of_manufacture'] = $_POST['year_of_manufacture'];
 		}
 
 		if(empty($_POST['status'])){
