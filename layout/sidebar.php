@@ -6,7 +6,7 @@
                 <div class="secion-detail">
                     <ul class="list-item">
                         <li>
-                            <a href="?modules=products&controllers=index&action=show&id_cat=13" title="dien_thoai">Điện Thoại</a>
+                            <a href="?modules=products&controllers=index&action=show&id_cat=13" title="dien_thoai">Bếp ga âm</a>
                        <!--     <ul class="sub-menu">
                                 <li>
                                     <a href="?page=category_product" title="">Iphone</a>
@@ -21,7 +21,7 @@
                             </ul> -->
                         </li>
                         <li>
-                            <a href="?modules=products&controllers=index&action=show&id_cat=14" title="">Máy Tính Bảng</a>
+                            <a href="?modules=products&controllers=index&action=show&id_cat=14" title="">Bếp ga dương</a>
                        <!--     <ul class="sub-menu">
                                 <li>
                                     <a href="?page=category_product" title="">Iphone</a>
@@ -36,7 +36,7 @@
                             </ul> -->
                         </li>
                         <li>
-                            <a href="?modules=products&controllers=index&action=show&id_cat=12" title="">Lap Top</a>
+                            <a href="?modules=products&controllers=index&action=show&id_cat=12" title="">Bếp ga mini</a>
                          <!--   <ul class="sub-menu">
                                 <li>
                                     <a href="?page=category_product" title="">Dell</a>

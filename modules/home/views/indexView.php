@@ -84,7 +84,7 @@
             </div>
             <div class="section" id="list-product-wp">
                 <div class="section-head">
-                    <h3 class="section-title">Điện thoại</h3>
+                    <h3 class="section-title">Bếp ga âm</h3>
                 </div>
                 <div class="section-detail">
                     <ul class="list-item clearfix">
@@ -111,7 +111,7 @@
             </div>
             <div class="section" id="list-product-wp">
                 <div class="section-head">
-                    <h3 class="section-title">Tablet</h3>
+                    <h3 class="section-title">Bếp ga dương</h3>
                 </div>
                 <div class="section-detail">
                     <ul class="list-item clearfix">
@@ -138,7 +138,7 @@
             </div>
             <div class="section" id="list-product-wp">
                 <div class="section-head">
-                    <h3 class="section-title">Laptop</h3>
+                    <h3 class="section-title">Bếp ga mini</h3>
                 </div>
                 <div class="section-detail">
                     <ul class="list-item clearfix">

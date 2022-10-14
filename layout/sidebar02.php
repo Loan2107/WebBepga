@@ -6,7 +6,7 @@
         <div class="secion-detail">
              <ul class="list-item">
                 <li>
-                    <a href="?modules=products&controllers=index&action=show&id_cat=13" title="">Điện Thoại</a>
+                    <a href="?modules=products&controllers=index&action=show&id_cat=13" title="">Bếp ga âm</a>
                  <!--   <ul class="sub-menu">
                                 <li>
                                     <a href="?page=category_product" title="">Iphone</a>
@@ -21,7 +21,7 @@
                             </ul> -->
                 </li>
                 <li>
-                    <a href="?modules=products&controllers=index&action=show&id_cat=14" title="">Máy Tính Bảng</a>
+                    <a href="?modules=products&controllers=index&action=show&id_cat=14" title="">Bếp ga dương</a>
                    <!-- <ul class="sub-menu">
                                 <li>
                                     <a href="?page=category_product" title="">Iphone</a>
@@ -36,7 +36,7 @@
                             </ul> -->
                 </li>
                 <li>
-                    <a href="?modules=products&controllers=index&action=show&id_cat=12" title="">Lap Top</a>
+                    <a href="?modules=products&controllers=index&action=show&id_cat=12" title="">Bếp ga mini</a>
                    <!-- <ul class="sub-menu">
                                 <li>
                                     <a href="?page=category_product" title="">Dell</a>
@@ -122,15 +122,15 @@
                     <tbody>
                         <tr>
                             <td><input type="radio" name="r-category" id="a1" value="13"></td>
-                            <td><label for="a1">Điện thoại</label></td>
+                            <td><label for="a1">Bếp ga âm</label></td>
                         </tr>
                         <tr>
                             <td><input type="radio" name="r-category" id="a2" value="14"></td>
-                            <td><label for="a2">Máy tính bảng</label></td>
+                            <td><label for="a2">Bếp ga dương</label></td>
                         </tr>
                         <tr>
                             <td><input type="radio" name="r-category" id="a3" value="12"></td>
-                            <td><label for="a3">Laptop</label></td>
+                            <td><label for="a3">Bếp ga mini</label></td>
                         </tr>
                     </tbody>
                 </table>
