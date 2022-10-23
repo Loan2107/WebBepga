@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>MANAGER SMARTSHOP PTN</title>
+        <title>MANAGER GAS VIET</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="public/css/bootstrap/bootstrap.min.css" rel="stylesheet" type="text/css"/>
@@ -20,7 +20,7 @@
             <div id="container">
                 <div id="header-wp">
                     <div class="wp-inner clearfix">
-                        <a href="?modules=home" title="" id="logo" class="fl-left">SMART SHOP PTN</a>
+                        <a href="?modules=home" title="" id="logo" class="fl-left">GAS VIET</a>
                         <ul id="main-menu" class="fl-left">
                             <li>
                                 <a href="?modules=home" title="">Trang chủ</a>

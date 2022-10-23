@@ -10,8 +10,8 @@
     display: block;
     border: none;
     outline: none;
-    background: #4fa327;
+    background: #1c76b3;
     color: #fff;
     padding: 8px 20px;
 }
-.change-pass-page #detail-page .section-detail button:hover{ background: #3a7d19;}
+.change-pass-page #detail-page .section-detail button:hover{ background: #1c76b3;}

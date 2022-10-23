@@ -1,6 +1,7 @@
 <div id="footer-wp">
     <div class="wp-inner">
-        <p id="copyright">2022 © MANAGER SMARTSHOP PTN</p>
+        <p id="copyright">2022 © MANAGER GAS VIET
+        </p>
     </div>
 </div>
 </div>

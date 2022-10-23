@@ -9,4 +9,4 @@
 /*SIDEBAR EVENT*/
 #sidebar #sidebar-menu .nav-item.active a .arrow{ top: 15px; transform: rotate(90deg); -moz-transform: rotate(90deg); -webkit-transform: rotate(90deg); -o-transform: rotate(90deg);-ms-transform: rotate(90deg);}
 #sidebar-menu > .nav-item.active > .nav-link{ background: #f5f5f5;}
-#sidebar-menu li:hover > a{ background: #f5f5f5}
+#sidebar-menu li:hover > a{ background: #99CCCC;}

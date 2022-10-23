@@ -35,10 +35,10 @@
                         <input type="submit" name="btn_submit" id="btn-submit" value="Thêm Mới" style="height: 40px;
                                                                                                 border-radius: 60px;
                                                                                                 width: 150px;
-                                                                                                color: green;
+                                                                                                color: #1c76b3;
                                                                                                 border-color: white;
                                                                                                 color: white;
-                                                                                                background-color: #48ad48;">
+                                                                                                background-color: #1c76b3;">
                     </form>
 
 
