@@ -33,7 +33,7 @@
                             <td>Tổng sản phẩm</td>
                             <td>Tổng giá tiền</td>
                             <td>Trạng thái</td>
-                            <td>Hoàn tác</td>
+                            <td>Thông tin</td>
                         </tr>
                     </thead>
                     <tbody>

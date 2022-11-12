@@ -69,8 +69,8 @@
                             <div class="info fl-right">
                                 <a href="?modules=products&controllers=index&action=detail&id=<?php echo $value['id']; ?>" title="" class="product-name"><?php echo $value['name']; ?></a>
                                 <div class="price">
-                                    <span style="display: block;" class="new"><?php echo number_format($value['promotional_price']).' VNĐ'; ?></span>
-                                    <span style="display: block;" class="old"><?php echo number_format($value['price']).' VNĐ'; ?></span>
+                                    <!-- <span style="display: block;" class="new"><?php echo number_format($value['promotional_price']).' VNĐ'; ?></span> -->
+                                    <span style="display: block;" class="new"><?php echo number_format($value['price']).' VNĐ'; ?></span>
                                 </div>
                                 <a href="<?php $id = $value['id']; if(!empty($_SESSION['id_customer'])) $urlll ="?modules=carts&controllers=index&action=addByNow&id=$id"; else $urlll ="?modules=users&controllers=index&action=index&report=1" ;echo $urlll;?> " title="" class="buy-now">Mua ngay</a>
                             </div>
@@ -83,7 +83,9 @@
             <div class="section" id="banner-wp">
                 <div class="section-detail">
                     <a href="" title="" class="thumb">
-                        <img src="public/images/bigsale.jpg" alt="">
+                        <img src="public/images/salebanner.jpg" alt="">
+                        <br>
+                        <img src="public/images/salebanner2.jpg" alt="">
                     </a>
                      
                     <!-- <a href="" title="" class="thumb" style="margin-top: 10px;">

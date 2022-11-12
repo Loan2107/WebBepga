@@ -27,7 +27,7 @@
     
                             </li>
                             <li>
-                                <a href="?page=list_post" title="">Bài viết</a>
+                                <a href="?modules=blogs&controllers=index&action=list" title="">Bài viết</a>
                                 <ul class="sub-menu">
                                     <li>
                                         <a href="?modules=blogs&controllers=index&action=add" title="">Thêm mới</a> 
@@ -50,7 +50,7 @@
                                 </ul>
                             </li>
                             <li>
-                                <a href="" title="">Bán hàng</a>
+                                <a href="?modules=orders&controllers=index&action=list" title="">Bán hàng</a>
                                 <ul class="sub-menu">
                                     <li>
                                         <a href="?modules=orders&controllers=index&action=list" title="">Đơn hàng thành công</a> 

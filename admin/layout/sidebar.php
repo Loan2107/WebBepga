@@ -1,15 +1,15 @@
 <div id="sidebar" class="fl-left">
     <ul id="sidebar-menu">
        <li class="nav-item">
-            <a href="" title="" class="nav-link nav-toggle">
+            <!-- <a href="" title="" class="nav-link nav-toggle">
                 <span class="fa fa-map icon"></span>
                 <span class="title">Quản lý đóng góp</span>
-            </a>
-            <ul class="sub-menu">
+            </a> -->
+            <!-- <ul class="sub-menu">
                 <li class="nav-item">
                     <a href="?modules=home" title="" class="nav-link aha">Danh sách</a>
                 </li>
-            </ul> 
+            </ul>  -->
         </li>
         <li class="nav-item">
             <a href="" title="" class="nav-link nav-toggle">
@@ -92,14 +92,14 @@
             <ul class="sub-menu">
                 <li class="nav-item">
                 <li class="nav-item">
-                    <a href="?modules=home" title="" class="nav-link aha">Thống kê hóa đơn</a>
+                    <a href="?modules=statistic&controllers=index&action=list" title="" class="nav-link aha">Số lượng sản phẩm bán ra</a>
                 </li>
                 <li class="nav-item">
-                    <a href="?modules=home" title="" class="nav-link aha">Thống kê sản phẩm bán chạy</a>
+                    <a href="?modules=statistic&controllers=index&action=listNo" title="" class="nav-link aha">Tổng doanh thu trong năm</a>
                 </li>
-                <li class="nav-item">
-                    <a href="?modules=home" title="" class="nav-link aha">Thống kê sản phẩm mới</a>
-                </li>
+                <!-- <li class="nav-item">
+                    <a href="?modules=statistic&controllers=index&action=list" title="" class="nav-link aha">Thống kê sản phẩm mới</a>
+                </li> -->
             </ul>
         </li>
         <li class="nav-item">

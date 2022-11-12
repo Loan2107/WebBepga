@@ -59,7 +59,7 @@
                         <tr>
                             <td colspan="7">
                                 <div class="clearfix">
-                                    <p id="total-price" class="fl-right">Tổng giá: <span><?php if(isset($_SESSION['cart']['buy'])&&!empty($_SESSION['id_customer'])) echo $_SESSION['cart']['info']['total']." .VNĐ"; else echo "0 .VNĐ"; ?></span></p>
+                                <p id="total-price" class="fl-right">Tổng giá: <span><?php if(isset($_SESSION['cart']['buy'])&&!empty($_SESSION['id_customer'])) echo number_format($_SESSION['cart']['info'] ['total'])." .VNĐ"; else echo "0 .VNĐ"; ?></span></p>
                                 </div>
                             </td>
                         </tr>
