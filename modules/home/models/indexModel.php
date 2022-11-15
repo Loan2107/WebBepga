@@ -4,7 +4,7 @@
 
 
 
-function getAllSmartPhone(){
+function getAllBepGaAm(){
 
 	return db_fetch_array("SELECT * FROM `tbl_product` WHERE `id_category` = '13'  LIMIT 8");
 }
@@ -12,7 +12,7 @@ function getAllSmartPhone(){
 
 
 
-function getAllTablet(){
+function getAllBepGaDuong(){
 
 	return db_fetch_array("SELECT * FROM `tbl_product` WHERE `id_category` = '14' LIMIT 8");
 
@@ -22,7 +22,7 @@ function getAllTablet(){
 
 
 
-function getAllLaptop(){
+function getAllBepGaMini(){
 
 	return db_fetch_array("SELECT * FROM `tbl_product` WHERE `id_category` = '12' LIMIT 8");
 

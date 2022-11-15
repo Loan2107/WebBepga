@@ -96,20 +96,36 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <td><input type="radio" name="r-brand" id="i1" value="2"></td>
-                            <td><label for="i1">Apple</label></td>
+                            <td><input type="radio" name="r-brand" id="i1" value="1"></td>
+                            <td><label for="i1">Cavanal</label></td>
                         </tr>
                         <tr>
-                            <td><input type="radio" name="r-brand" id="i2" value="1"></td>
-                            <td><label for="i2">SamSung</label></td>
+                            <td><input type="radio" name="r-brand" id="i2" value="2"></td>
+                            <td><label for="i2">Rinai</label></td>
                         </tr>
                         <tr>
                             <td><input type="radio" name="r-brand" id="i3" value="3"></td>
-                            <td><label for="i3">Sony</label></td>
+                            <td><label for="i3">Namilux</label></td>
                         </tr>
                         <tr>
                             <td><input type="radio" name="r-brand" id="i4" value="4"></td>
-                            <td><label for="i4">Nokia</label></td>
+                            <td><label for="i4">Malloca</label></td>
+                        </tr>
+                        <tr>
+                            <td><input type="radio" name="r-brand" id="i4" value="5"></td>
+                            <td><label for="i4">Goldsun</label></td>
+                        </tr>
+                        <tr>
+                            <td><input type="radio" name="r-brand" id="i4" value="6"></td>
+                            <td><label for="i4">Mutosi</label></td>
+                        </tr>
+                        <tr>
+                            <td><input type="radio" name="r-brand" id="i4" value="7"></td>
+                            <td><label for="i4">AirPort</label></td>
+                        </tr>
+                        <tr>
+                            <td><input type="radio" name="r-brand" id="i4" value="8"></td>
+                            <td><label for="i4">Eurosun</label></td>
                         </tr>
                     </tbody>
                 </table>
@@ -134,7 +150,11 @@
                         </tr>
                     </tbody>
                 </table>
-                <input style="width: 100%;color: white; background-color: #95d895;border-radius: 5px; border: none; " type="submit" name="btn_filter" value="Áp dụng">
+                <input type="submit" name="btn_filter" value="Áp dụng" style="width: 100%;color: white; 
+                                                                            background-color: #006400;
+                                                                            border-radius: 5px; 
+                                                                            border: none;
+                                                                            ">
             </form>
         </div>
     </div>

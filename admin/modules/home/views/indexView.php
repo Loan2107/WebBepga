@@ -5,11 +5,10 @@
         <div id="content" class="fl-right">
             <div class="section" id="title-page">
                 <div class="clearfix">
-                    <h3 id="index" class="fl-left">Trang chủ Admin</h3>  
-                      
+                    <h3 id="index" class="fl-left">Trang chủ Admin</h3> 
+                </div>
             </div>
         </div>
     </div>
-</div>
 </div>
 <?php require 'layout/footer.php'; ?>

@@ -12,14 +12,13 @@ function construct() {
 
 
 function indexAction() {
-	
-	$smartphones = getAllSmartPhone();
-	$tablets = getAllTablet();
-	$laptops = getAllLaptop();
+	$BepGaAm = getAllBepGaAm();
+	$BepGaDuong = getAllBepGaDuong();
+	$BepGaMini = getAllBepGaMini();
 	$hots = getAllHot();
 	$sliders = getAllSlider();
 	$_SESSION['product_hot'] = $hots;
-	$data = [ $smartphones, $tablets, $laptops, $hots, $sliders];
+	$data = [ $BepGaAm, $BepGaDuong, $BepGaMini, $hots, $sliders];
 	load_view('index',$data);
 }
 
