@@ -28,7 +28,7 @@ function listAction() {
 	}
 	
 	$numProduct = count($data_tmp);
-	$productOnPage = 5;
+	$productOnPage = 15;
 	$num = ceil($numProduct/$productOnPage);
 	if(!empty($_GET['page']) && $_GET['page']>$num){
 		$page =$num;
@@ -63,7 +63,7 @@ function listNoAction() {
 	}
 	
 	$numProduct = count($data_tmp);
-	$productOnPage = 5;
+	$productOnPage = 15;
 	$num = ceil($numProduct/$productOnPage);
 	if(!empty($_GET['page']) && $_GET['page']>$num){
 		$page =$num;

@@ -103,14 +103,14 @@
                             <?php foreach ($_SESSION['cart']['buy'] as $key => $value) { ?>
                             <tr class="cart-item">
                                 <td class="product-name"><?php echo $value['name']; ?><strong class="product-quantity">x <?php echo $value['qty']; ?></strong></td>
-                                <td class="product-total"><?php echo $value['sub_total']; ?></td>
+                                <td class="product-total"><?php echo number_format($value['sub_total']); ?></td>
                             </tr>
                              <?php }}; ?>
                         </tbody>
                         <tfoot>
                             <tr class="order-total">
                                 <td>Tổng đơn hàng:</td>
-                                <td><strong class="total-price"><?php if(isset($_SESSION['cart']['buy'])) echo $_SESSION['cart']['info']['total']." VND"; else echo "0 VND"; ?></strong></td>
+                                <td><strong class="total-price"><?php if(isset($_SESSION['cart']['buy'])) echo number_format($_SESSION['cart']['info']['total'])." VND"; else echo "0 VND"; ?></strong></td>
                             </tr>
                         </tfoot>
                     </table>

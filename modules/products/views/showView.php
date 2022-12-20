@@ -44,7 +44,6 @@
                             </a>
                             <a href="?modules=products&controllers=index&action=detail&id=<?php echo $value['id']; ?>" title="" class="product-name"><?php echo $value['name']; ?></a>
                             <div class="price">
-                                <span style="display: block;" class="new"><?php echo number_format($value['promotional_price']).'.VND'; ?></span>
                                 <span style="display: block;" class="old"><?php echo number_format($value['price']).'.VND'; ?></span>
                             </div>
                             <div class="action clearfix">
